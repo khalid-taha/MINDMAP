@@ -1,0 +1,73 @@
+Read the text and create a mind map.
+
+Use only keywords and relationships from the text.
+
+Do not add outside knowledge.
+Do not explain the topic.
+Do not write long sentences.
+Do not invent new ideas.
+
+Follow these steps exactly.
+
+STEP 1 — Find the keywords
+A keyword can be:
+- a noun
+- a main verb
+- a key adjective
+- a short phrase
+
+Keep words that carry real meaning.
+Keep action words if they are important.
+Examples:
+trained, uses, allows, learn, generate, predict, requires, identify, select
+
+Do not keep filler words.
+Do not keep weak words unless they clearly matter.
+
+STEP 2 — Find the relationships
+Show how the keywords connect.
+
+Use relationship words from the text where possible.
+
+Good relationship types:
+- is
+- uses
+- trained on
+- allows
+- includes
+- part of
+- leads to
+- requires
+
+Only include relationships clearly supported by the text.
+
+STEP 3 — Build the mind map
+- Put the main topic at the top
+- Group related keywords together
+- Keep each node short
+- Use tree structure
+- Do not copy full sentences from the text
+
+OUTPUT FORMAT
+
+Keywords
+[list of keywords]
+
+Relationships
+- keyword → relationship → keyword
+- keyword → relationship → keyword
+
+Mind map
+Main Topic
+├── keyword / relationship
+│   └── keyword
+└── keyword / relationship
+    └── keyword
+
+IMPORTANT RULES
+- Keywords are not nouns only
+- Important verbs can be keywords
+- Short phrases can be keywords
+- Use only words and phrases from the text
+- Do not add commentary
+- Do not skip important action words
