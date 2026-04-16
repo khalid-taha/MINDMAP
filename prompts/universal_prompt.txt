@@ -1,0 +1,40 @@
+Read the text and create a mind map using only keywords and relationships found in the text.
+
+Step 1: Extract keywords
+- A keyword can be a noun, main verb, key adjective, or short phrase.
+- Keep important action words if they carry meaning.
+- Prefer short phrases when needed to preserve meaning.
+- Do not include filler words.
+- Do not invent ideas.
+
+Step 2: Extract relationships
+- Show how the keywords connect in the source text.
+- Use source relationship words where possible.
+- Keep only relationships clearly supported by the text.
+
+Step 3: Build the mind map
+- Put the main topic at the top.
+- Group related keywords together.
+- Show the relationships through the tree structure.
+- Keep each node short.
+- Do not copy full sentences.
+
+Output exactly in this format:
+
+Keywords
+[list of keywords]
+
+Relationships
+- keyword → relationship → keyword
+
+Mind map
+Main Topic
+├── keyword / relationship
+│   └── keyword
+└── keyword / relationship
+    └── keyword
+
+Important:
+- Keywords are not nouns only.
+- They can also be verbs, adjectives, and short phrases if they carry important meaning.
+- Use only source-based keywords and relationships.
