@@ -81,11 +81,13 @@ For each text, produce:
 **Mind map**
 Tree layout using this style:
 
+```
 **Main Topic**
 ├── **keyword / relationship**
 │   └── **keyword**
 └── **keyword / relationship**
 └── **keyword**
+```
 
 ### Important rules
 
@@ -129,6 +131,7 @@ LLM, deep neural network, trained, massive amounts of text data, understand, gen
 * learn → structure
 * learn → relationships within text
 
+```
 **Mind map**
 **LLM**
 ├── **deep neural network**
@@ -152,6 +155,7 @@ LLM, deep neural network, trained, massive amounts of text data, understand, gen
 └── **different parts of the input**
 └── **adept**
 └── **handling language nuances**
+```
 
 ---
 
@@ -176,6 +180,7 @@ traditional machine learning, requires, manual feature extraction, human experts
 * deep learning → allowing → learn features
 * learn features → directly from the data
 
+```
 **Mind map**
 **traditional machine learning**
 ├── **requires**
@@ -194,6 +199,7 @@ traditional machine learning, requires, manual feature extraction, human experts
 └── **allowing**
 └── **learn features**
 └── **directly from the data**
+```
 
 ---
 
