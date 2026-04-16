@@ -1,0 +1,54 @@
+Create a mind map from the text using only keywords and relationships found in the text.
+
+Work in this order.
+
+Step 1: Identify the keywords
+- Extract the most important meaning-carrying words and short phrases.
+- A keyword can be:
+  - a noun
+  - a main verb
+  - a key adjective
+  - a short phrase with one clear meaning
+- Keep important action words when they carry meaning, such as:
+  trained, uses, allows, learn, generate, predict, requires, identify, select
+- Prefer short phrases when one word would lose the meaning.
+- Do not include filler words unless they clearly matter in the source text.
+- Do not invent words or ideas.
+
+Step 2: Identify the relationships
+- Find how the keywords connect in the source text.
+- Use relationship words from the source text where possible.
+- Focus on links such as:
+  is, uses, trained on, allows, includes, part of, leads to, requires
+- Do not add outside knowledge.
+- Do not explain beyond the source text.
+
+Step 3: Build the mind map
+- Put the main topic at the top.
+- Group related keywords together.
+- Show relationships through the tree structure.
+- Keep each node short.
+- Do not copy full sentences.
+- Do not make the map too thin by removing important action words.
+
+Output exactly in this format:
+
+Keywords
+[list of keywords]
+
+Relationships
+- keyword → relationship → keyword
+- keyword → relationship → keyword
+
+Mind map
+Main Topic
+├── keyword / relationship
+│   └── keyword
+└── keyword / relationship
+    └── keyword
+
+Important:
+- A keyword is not only a noun.
+- It can also be a verb, adjective, or short phrase if it carries important meaning.
+- Use only source-based keywords and source-based relationships.
+- Do not add commentary outside the required output.
