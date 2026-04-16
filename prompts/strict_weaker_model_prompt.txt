@@ -1,0 +1,30 @@
+Task: Turn the text into a mind map.
+
+Rules:
+1. Use only keywords from the text.
+2. Use only relationships supported by the text.
+3. A keyword can be:
+   - noun
+   - verb
+   - adjective
+   - short phrase
+4. Keep important action words.
+5. Do not add outside knowledge.
+6. Do not explain.
+7. Do not copy long sentences.
+8. Keep the output short and structured.
+
+Output exactly like this:
+
+Keywords
+[list]
+
+Relationships
+- keyword → relationship → keyword
+
+Mind map
+Main Topic
+├── keyword / relationship
+│   └── keyword
+└── keyword / relationship
+    └── keyword
