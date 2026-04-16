@@ -1,0 +1,39 @@
+Read the text.
+
+Your job is to do only 3 things:
+1. extract keywords
+2. extract relationships between the keywords
+3. draw a tree-style mind map
+
+Keyword rules:
+- keywords can be nouns, verbs, adjectives, or short phrases
+- keep important action words
+- keep only words that carry meaning
+- do not include filler words
+- do not invent words
+
+Relationship rules:
+- use relationships that are clearly stated in the text
+- use source wording where possible
+- do not add extra meaning
+
+Mind map rules:
+- main topic at top
+- related keywords grouped under it
+- short nodes only
+- no explanation outside the map
+
+Output exactly in this form:
+
+Keywords
+[list of keywords]
+
+Relationships
+- keyword → relationship → keyword
+
+Mind map
+Main Topic
+├── keyword / relationship
+│   └── keyword
+└── keyword / relationship
+    └── keyword
